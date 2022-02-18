@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tictactoe</title>
+</head>
+<body>
+    <h1 class="tic">TIC TAC TOE</h1>
+    <b><p class="ticp">Tic-tac-toe or Xs and Os is a game 
+for two players who take turns marking the spaces in a three-by-three grid with X or O.<br>
+The player who succeeds in placing three of their marks in a horizontal, vertical,
+or diagonal row is the winner. </b></p>
+<div id='selection'>
+    Play as:
+    <button id='A'  onclick="ipx()">X</button>
+    <button id='B'  onclick="ipo()">O</button>
+</div>
+   <div class="container">
+       <div class="box border-top border-left"><span class="bo"></span></div>
+       <div class="box border-top"><span class="bo"></span></div>
+       <div class="box border-top border-right"><span class="bo"></span></div>
+       <div class="box border-left"><span class="bo"></span></div>
+       <div class="box"><span class="bo"></span></div>
+       <div class="box border-right"><span class="bo"></span></div>
+       <div class="box border-left border-bottom"><span class="bo"></span></div>
+       <div class="box border-bottom"><span class="bo"></span></div>
+       <div class="box border-bottom border-right"><span class="bo"></span></div>
+   </div>
+   <br>
+   <button onclick="location.reload()">PLAY AGAIN</button>
+   <script src="ticscript.js"></script>
+</body>
+</html>

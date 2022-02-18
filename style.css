@@ -1,0 +1,141 @@
+     body 
+      {
+        background: rgb(24,48,48);
+        background: linear-gradient(90deg, rgba(24,48,48,1) 0%, rgba(104,7,224,1) 40%, rgba(163,19,165,0.9028653697807247) 75%, rgba(218,9,91,1) 100%);
+            text-align: center;
+        }
+        h1
+        {
+            color:rgb(253, 253, 253);
+        }
+        p
+        {
+            color:white;
+        }
+        .hangman
+        {
+            color:rgb(214, 219, 215);
+            background: rgb(101,190,82);
+            background: linear-gradient(90deg, rgba(101,190,82,1) 40%, rgba(179,3,244,1) 100%);
+        }
+        .tictactoe
+        {
+            color: rgb(59, 22, 22);      
+            background: rgb(213,218,89);
+            background: linear-gradient(90deg, rgba(213,218,89,1) 40%, rgba(87,119,228,1) 100%);
+            text-align: center;
+        }
+        .hangman
+        {
+            color: black;
+            text-align: center;
+        }
+        .han
+        {
+            color: rgb(22, 224, 73);
+        }
+        .tic
+        {
+            color: rgb(15, 230, 176);
+        }
+      .ticp
+      {
+          color: whitesmoke;
+
+      }
+    .hanp
+    {
+        color:aliceblue
+    }
+    .container
+    {
+        text-align: center;
+        display: grid;
+        grid-template-rows: repeat(3,10vw);
+        grid-template-columns: repeat(3,10vw);
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        
+    }
+    .box 
+    {
+        text-align: center;
+        border: 2px solid black;
+        font-size: 8vw;
+    }
+    .box:hover
+    {
+        background:cyan;
+    }
+    .border-top
+    {
+        border-top: 0;
+    }
+    .border-right
+    {
+        border-right: 0;
+    }
+    .border-left
+    {
+        border-left: 0;
+    }
+    .border-bottom
+    {
+        border-bottom: 0;
+    }
+    .invisible
+     {
+        visibility: hidden;
+      }
+    .hangman-figure
+    {
+        stroke:rgb(0, 0, 0);stroke-width: 0.35em;
+    }
+    #ip #bt
+    {
+        text-align: center;
+    }
+    #full
+    {
+        color: rgb(198, 252, 2);
+    }
+    @media only screen and (max-width: 480px)
+     {
+        img 
+        {
+        width: 100%;
+        }
+    }
+    @media (max-width: 550px) 
+    {
+        body
+        { 
+            font-size: 16px; 
+        }
+    } 
+    @media (min-width: 551px) 
+      {
+        body 
+        {
+             font-size: 16px;
+        }
+      }
+    #selection 
+    {
+        height: 60px;
+        font-size: 1.5em;
+    }
+    #A:hover 
+    {
+        cursor: pointer;
+        background-color: #FA6900;
+    }
+    #B:hover
+    {
+        cursor: pointer;
+        background-color: #FA6900;
+    }
+        
+   
+
+    

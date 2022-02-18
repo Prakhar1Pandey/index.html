@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <h1 class="han">HANGMAN</h1>
+    <p class="hanp">
+        <b>A game in which a player guesses the letters of a word. <br>
+            For each wrong guess, a new part of the stick figure of a hanging man is drawn.</b><br>
+        <br><input id=ip type="text" id="ip" placeholder="Enter a Letter">
+        <button id="bt" onclick="hangman()">SUBMIT</button>
+    <div id="full"></div>
+    <div class="hangman-figure invisible">
+        <svg id="han" height="300" width="250">
+            
+            <line id="rod3" x1="37" y1="20" x2="163" y2="20"></line>
+            <line id="rope" x1=160 y1="20" x2="160" y2="50"></line>
+            <line id="rod2" x1="40" y1="20" x2="40" y2="240"></line>
+            <line id="rod1" x1="0" y1="240" x2="80" y2="240"></line>
+
+            <circle id="face" cx="160" cy="71" r="20" fill="transparent"></circle>
+            <line id="body" x1=160 y1="92" x2="160" y2="180"></line>
+
+            <line id="arm1" x1="160" y1="130" x2="120" y2="100"></line>
+            <line id="arm2" x1="160" y1="130" x2="200" y2="100"></line>
+
+            <line id="leg1" x1="160" y1="180" x2="120" y2="220"></line>
+            <line id="leg2" x1="160" y1="180" x2="200" y2="220"></line>
+        </svg>
+    </div>
+    </p>
+    <button onclick="location.reload()">PLAY AGAIN</button>
+    <script src="hangscript.js"></script>
+</body>
+</html>
